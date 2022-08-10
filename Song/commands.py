@@ -41,7 +41,7 @@ async def start(bot, update):
 
 async def helper(bot, update):
         await update.reply_text(
-            text=f"Kirimkan sebuah tautan lagu\n\nMengunduh lagu\n\nKirim sebagai file musik untukmu\n\nTidak semua file musik bisa diunduh, So Please be Patient\n\nFeel Free to Conatct me If you Spot any Bugs\n\n\nDibuat Oleh ❤️ @eiko_support",
+            text=f"Kirimkan sebuah tautan lagu\n\nMengunduh lagu\n\nKirim sebagai file musik untukmu\n\nTidak semua file musik bisa diunduh, Jadi Harap Bersabar\n\nJangan Ragu untuk Menghubungi saya Jika Anda Menemukan Bug apa pun\n\n\nDibuat Oleh ❤️ @eiko_support",
             quote=True,
             reply_markup=InlineKeyboardMarkup(
                             [[
