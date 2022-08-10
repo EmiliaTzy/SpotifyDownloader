@@ -1,32 +1,32 @@
-# Songs Downloader BOT
+# Bot Pengunduh Lagu
 
-# Working Demo [![image](https://img.shields.io/badge/TELEGRAM-0000FF?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/music_c_down_bot/)
+# Bekerja Demo [![image](https://img.shields.io/badge/TELEGRAM-0000FF?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/music_c_down_bot/)
 
-## Table of Contents
-* [What is This BOT?](#What-is-This-BOT?)
-* [Setup](#setup)
+## Daftar Isi
+* [Bot apa ini?](#Bot-apa-ini)
+* [Pengaturan](#pengaturan)
 * [Bugs](#Bugs)
 * [My BOT Channel](#My-BOTs-Channel)
 
 
-## What is This BOT?
+## Bot apa ini?
 
-### Ever Wondered how to download songs from Spotify or YouTube?
+### Pernah Bertanya-tanya bagaimana cara mengunduh lagu dari Spotify atau YouTube?
 
-### This BOT Can help you to download songs from spotify using <a href = "https://github.com/spotDL/spotify-downloader">spotdl</a>
+### BOT ini Dapat membantu Anda mengunduh lagu dari spotify menggunakan <a href = "https://github.com/spotDL/spotify-downloader">spotdl</a>
 ### This BOT Can help you to download songs from YouTube using <a href = "https://github.com/spotDL/https://github.com/yt-dlp/yt-dlp">yt-dlp</a>
 ## Setup
 
-### On Heroku
+### Via Heroku
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/10cyrilc/spotify-bot)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/EmiliaTzy/SpotifyDownloader)
 
-### On VPS or Locally
+### Via VPS atau Lokal
 
-#### Without Docker
+#### Tanpa Docker
 
 ```
-git clone https://github.com/10cyrilc/spotify-bot.git
+git clone https://github.com/EmiliaTzy/Spotifydownloader.git
 cd spotify-bot
 
 Edit edit_me.py with Details as Follows,
@@ -46,7 +46,7 @@ pip3 install -r requirements.txt
 python bot.py
 ```
 
-#### With Docker
+#### Dengan Docker
 
 ```
 Edit the config.py with required Details
@@ -56,8 +56,8 @@ Run The Docker Image
 
 ## Bugs
 
-#### This is Currently in Development Stages, So it has Bugs that I am unaware of 
-#### If You Find any Bugs Feel Free to contact <a href="https://t.me/c_text_bot">Cyril C Thomas</a>
+####  Ini Saat Ini dalam Tahap Pengembangan, Jadi ada Bug yang saya tidak sadari
+#### If You Find any Bugs Feel Free to contact <a href="https://t.me/tth_kiya98_bot">Az</a>
 
 ## My BOTs Channel
-<a href="https://t.me/c_bots_support">C BOTs</a>
+<a href="https://t.me/eiko_support">Eiko BOT</a>
