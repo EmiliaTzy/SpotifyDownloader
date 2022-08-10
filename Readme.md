@@ -59,5 +59,5 @@ Run The Docker Image
 ####  Ini Saat Ini dalam Tahap Pengembangan, Jadi ada Bug yang saya tidak sadari
 #### If You Find any Bugs Feel Free to contact <a href="https://t.me/tth_kiya98_bot">Az</a>
 
-## My BOTs Channel
+## Kumpulan Bot Lainnya
 <a href="https://t.me/eiko_support">Eiko BOT</a>
