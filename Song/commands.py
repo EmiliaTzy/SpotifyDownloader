@@ -24,7 +24,7 @@ def humanbytes(size):
 
 async def start(bot, update):
         await update.reply_text(
-            text=f"Hai yang disana, {update.from_user.mention} \n\nsaya dapat mengunduh <b>Lagu Spotify</b> dan mengirimnya kembali ke kamu\n\nKirimkan saya sebuah link untuk diunggah......\n\n\nDibuat oleh ❤️ by @eiko_support",
+            text=f"Hai yang disana, {update.from_user.mention} \n\nsaya dapat mengunduh <b>Lagu Spotify</b> dan mengirimnya kembali ke kamu\n\nKirimkan saya sebuah link untuk diunggah......\n\n\nDibuat oleh ❤️ @eiko_support",
             quote=True,
             reply_markup=InlineKeyboardMarkup(
                             [[
@@ -41,7 +41,7 @@ async def start(bot, update):
 
 async def helper(bot, update):
         await update.reply_text(
-            text=f"Send Me The Song Link\n\nDownload The Music\n\nSend as Music File Back to You\n\nNot all Music Files Can be Downloaded, So Please be Patient\n\nFeel Free to Conatct me If you Spot any Bugs\n\n\nMade with ❤️ by @c_bots_support",
+            text=f"Kirimkan sebuah tautan lagu\n\nMengunduh lagu\n\nKirim sebagai file musik untukmu\n\nTidak semua file musik bisa diunduh, So Please be Patient\n\nFeel Free to Conatct me If you Spot any Bugs\n\n\nDibuat Oleh ❤️ @eiko_support",
             quote=True,
             reply_markup=InlineKeyboardMarkup(
                             [[
