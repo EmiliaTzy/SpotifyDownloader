@@ -24,14 +24,14 @@ def humanbytes(size):
 
 async def start(bot, update):
         await update.reply_text(
-            text=f"Hi there, {update.from_user.mention} \n\nI can download <b>Spotify Songs</b> and Sent it Back to You\n\nSend me The Link and See the Magic......\n\n\nMade with ❤️ by @c_bots_support",
+            text=f"Hai yang disana, {update.from_user.mention} \n\nsaya dapat mengunduh <b>Lagu Spotify</b> dan mengirimnya kembali ke kamu\n\nKirimkan saya sebuah link untuk diunggah......\n\n\nDibuat oleh ❤️ by @eiko_support",
             quote=True,
             reply_markup=InlineKeyboardMarkup(
                             [[
                                 InlineKeyboardButton(
-                                    "Support Channel", url="https://t.me/c_bots_support"),
+                                    "Support Channel", url="https://t.me/eiko_support"),
                                 InlineKeyboardButton(
-                                    "DEV Contact", url="https://t.me/c_text_bot")
+                                    "Developer", url="https://t.me/tth_kiya98_bot")
                                 ]]
                             ),
             disable_web_page_preview=True,
@@ -46,9 +46,9 @@ async def helper(bot, update):
             reply_markup=InlineKeyboardMarkup(
                             [[
                                 InlineKeyboardButton(
-                                    "Support Channel", url="https://t.me/c_bots_support"),
+                                    "Support Channel", url="https://t.me/eiko_support"),
                                 InlineKeyboardButton(
-                                    "DEV Contact", url="https://t.me/c_text_bot")
+                                    "Developer", url="https://t.me/tth_kiya98_bot")
                                 ]]
                             ),
             disable_web_page_preview=True,
@@ -65,7 +65,7 @@ async def status(bot, update):
     disk_usage = psutil.disk_usage('/').percent
     total_users = await db.total_users_count()
     await update.reply_text(
-        text=f"**Total Disk Space:** {total} \n**Used Space:** {used}({disk_usage}%) \n**Free Space:** {free} \n**CPU Usage:** {cpu_usage}% \n**RAM Usage:** {ram_usage}%\n\n**Total Users in DB:** `{total_users}`",
+        text=f"**Total ruang disk:** {total} \n**Penggunaan ruang:** {used}({disk_usage}%) \n**Ruang kosong:** {free} \n**Penggunaan CPU:** {cpu_usage}% \n**Penggunaan RAM:** {ram_usage}%\n\n**Total Pengguna di DB:** `{total_users}`",
         parse_mode="Markdown",
         quote=True
     )
